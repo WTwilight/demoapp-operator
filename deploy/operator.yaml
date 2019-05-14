@@ -16,7 +16,7 @@ spec:
       containers:
         - name: demoapp-operator
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: quay.io/wtwilight/demoapp-operator
           command:
           - demoapp-operator
           imagePullPolicy: Always
